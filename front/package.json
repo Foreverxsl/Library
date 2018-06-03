@@ -9,8 +9,8 @@
     "start": "npm run dev",
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
-  },
-  "dependencies": {
+  }, 
+  "dependencies": { 
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
     "chart.js": "^2.7.2",
@@ -81,3 +81,4 @@
     "not ie <= 8"
   ]
 }
+ 
