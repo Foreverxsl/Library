@@ -23,7 +23,6 @@ function execute(sql){
     return new Promise(function(resolve,reject){
         var connection;
         getConnection().then(function(conn){
-            //connection=conn;
             conn.query(sql,function(err,result){
                 if(!err){
                     resolve(result);
@@ -35,12 +34,7 @@ function execute(sql){
             });
         }).catch(function(err){
             reject(err)
-        })/*.finally(function(){
-            if(connection){
-                connection.release();
-                console.log("释放完成");
-            }
-        });*/
+        })
     });
 }
 module.exports={

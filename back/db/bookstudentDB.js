@@ -66,4 +66,4 @@ module.exports = {
       console.log(sql);
       return pool.execute(sql);
     }
-}
+} 

@@ -31,7 +31,7 @@ router.post('/batchDelete',(req,res)=>{
       res.send(data);
     }).catch((error)=>{
       res.send(error);
-    });
+    }); 
   });
 // 上传图片
 router.post('/uploadImg',function(req,res) {

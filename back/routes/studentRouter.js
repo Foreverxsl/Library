@@ -18,7 +18,7 @@ router.get('/findStudent',(req,res)=> {
         console.log(data);
         res.send(data);
     }).catch((error)=> {
-        res.send(error);
+        res.send(error); 
     })
 })
 // 模糊查询

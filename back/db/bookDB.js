@@ -60,4 +60,4 @@ module.exports = {
       return pool.execute(sql);
     },
     
-}
+} 

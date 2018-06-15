@@ -41,7 +41,7 @@ router.post('/save',(req,res)=>{
     let bookstudent={
         Id:null,
         Book_num:req.body.Book_num,
-        Student_code:req.body.Student_code,
+        Student_code:req.body.Student_code, 
         borrow_date:req.body.borrow_date.slice(0,10),
         return_date:req.body.return_date.slice(0,10)
     };

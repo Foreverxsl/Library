@@ -6,7 +6,7 @@ module.exports = {
       var sql = "select Student_num,Student_code,Student_name,Academy_name,Class_name,Sex,Email from t_student";
       return pool.execute(sql);
     },
-    // 查找学生信息
+    // 查找学生信息 
     findStudent(name) {
       var sql="select * from t_student where Student_code='"+name+"'";
       console.log(sql);
