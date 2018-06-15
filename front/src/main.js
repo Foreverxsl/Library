@@ -24,7 +24,7 @@ Vue.component("SIdentify",SIdentify);
 
 new Vue({
   el: '#app',
-  store,
+  store, 
   router,
   components: { App },
   template: '<App/>'
